@@ -3,7 +3,6 @@ using Shared.Wrapper;
 using Domain.Configs.Version;
 using Microsoft.Extensions.Options;
 using Application.Features.Version.Dtos;
-using Application.Common.ExceptionHandlers;
 
 namespace Application.Features.Version.Queries.GetVersion;
 
