@@ -2,5 +2,5 @@ namespace Application.Features.Version.Dtos;
 
 public record VersionDto
 {
-    public string Version { get; set; } = null!;
+    public string Version { get; init; } = string.Empty;
 }
